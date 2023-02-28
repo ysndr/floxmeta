@@ -1,0 +1,10 @@
+{
+  "channels": {
+    "bla": "github:flox/floxpkgs"
+  },
+  "educatePublish": 0,
+  "floxClientUUID": "9be2ef12-b364-11ed-9202-6f5f521f8117",
+  "floxMetricsConsent": 0,
+  "gitBaseURL": "https://github.com/",
+  "version": 1
+}
