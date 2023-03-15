@@ -1,0 +1,67 @@
+{
+  "nixpkgs-flox": {
+    "aarch64-darwin": {
+      "stable": {
+        "hello": {
+          "latest": {
+            "cache": {
+              "out": {
+                "https://cache.nixos.org": {}
+              }
+            },
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "aarch64-darwin",
+                "hello"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/qqpiv349dbbsh5avzs2hj3zrh7s5vbd8-hello-2.12.1"
+              ],
+              "url": "github:flox/nixpkgs/d0d55259081f0b97c828f38559cad899d351cad1"
+            },
+            "eval": {
+              "meta": {
+                "description": "A program that produces a familiar, friendly greeting",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/32cp7y0cf36h3xp0fqwy2nf432fpcaci-source/pkgs/applications/misc/hello/default.nix:34",
+                "unfree": false
+              },
+              "name": "hello-2.12.1",
+              "outputs": {
+                "out": "/nix/store/qqpiv349dbbsh5avzs2hj3zrh7s5vbd8-hello-2.12.1"
+              },
+              "pname": "hello",
+              "system": "aarch64-darwin",
+              "version": "2.12.1"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "aarch64-darwin",
+                "stable",
+                "hello"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/qqpiv349dbbsh5avzs2hj3zrh7s5vbd8-hello-2.12.1"
+              ],
+              "url": "flake:nixpkgs-flox/97008ad08e0d3ba7172ec1b0599cb80161beb645"
+            },
+            "schema": 1,
+            "source": {
+              "locked": {
+                "lastModified": 1676973346,
+                "revCount": 456418
+              }
+            },
+            "type": "catalogRender"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "elements": [
+    {
+      "active": true,
+      "attrPath": "evalCatalog.aarch64-darwin.stable.hello",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qqpiv349dbbsh5avzs2hj3zrh7s5vbd8-hello-2.12.1"
+      ],
+      "url": "flake:nixpkgs-flox/97008ad08e0d3ba7172ec1b0599cb80161beb645"
+    }
+  ],
+  "version": 2
+}

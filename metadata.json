@@ -1,0 +1,15 @@
+{
+  "currentGen": "1",
+  "generations": {
+    "1": {
+      "created": 1678881305,
+      "lastActive": 1678881305,
+      "logMessage": [
+        "yannik installed stable.nixpkgs-flox.hello"
+      ],
+      "path": "/nix/store/rzx5daayid6vr3p7aqilgsycp7261r4s-floxShell",
+      "version": 2
+    }
+  },
+  "version": 1
+}
