@@ -1,13 +1,22 @@
 {
-  "currentGen": "1",
+  "currentGen": "2",
   "generations": {
     "1": {
       "created": 1678881305,
-      "lastActive": 1678881305,
+      "lastActive": 1679052483,
       "logMessage": [
         "yannik installed stable.nixpkgs-flox.hello"
       ],
       "path": "/nix/store/rzx5daayid6vr3p7aqilgsycp7261r4s-floxShell",
+      "version": 2
+    },
+    "2": {
+      "created": 1679052483,
+      "lastActive": 1679052483,
+      "logMessage": [
+        "yannik installed stable.flox.flox-prerelease"
+      ],
+      "path": "/nix/store/06zrim5d6ai6j8ya2pmc31nv03yv630q-floxShell",
       "version": 2
     }
   },
